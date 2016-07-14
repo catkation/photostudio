@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0" />
+<meta name="description" content="" />
+<title>PHOTOSTUDIO</title>
+<link href='http://fonts.googleapis.com/css?family=Ubuntu:300,400,700,400italic' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Oswald:400,300,700' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/lightbox.css">
+<link rel="stylesheet" href="css/libs/animate.css">
+<link rel="stylesheet" href="css/site.css">
+<link rel="stylesheet" href="css/style.css" />
+<link rel="stylesheet" href="css/about.css" />
+<link rel="stylesheet" href="css/font-awesome.css">
+<link rel="stylesheet" href="css/mosaic-flow.css">
+<script src="js/classie.js"></script>
+<script src="js/maps.js"></script>
+<script>
+    function init() {
+        window.addEventListener('scroll', function(e){
+            var distanceY = window.pageYOffset || document.documentElement.scrollTop,
+                shrinkOn = 150,
+                header = document.querySelector("header");
+            if (distanceY > shrinkOn) {
+                classie.add(header,"smaller");
+            } else {
+                if (classie.has(header,"smaller")) {
+                    classie.remove(header,"smaller");
+                }
+            }
+        });
+    }
+    window.onload = init();
+</script>
+  <!--[if IE]>
+    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
+</head>
+<body>
+<header>
+       <div class="container clearfix">
+        <h1 id="logo">PHOTOSTUDIO</h1>
+        <nav>
+            <a href="">Home</a>
+            <a href="">About</a>
+            <a href="">Gallery</a>
+            <a href="">Contact</a>
+        </nav>
+    </div>
+</header>
+  <div class="main">
+     <div class="icons">
+          <a href="#"><i class="fa fa-pinterest-p fa-3x ico" aria-hidden="true" ></i></a>
+          <a href="#"><i class="fa fa-instagram fa-3x ico" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-twitter fa-3x ico" aria-hidden="true"></i></a>
+          <a href="#"><i class="fa fa-facebook fa-3x ico" aria-hidden="true"></i></a>
+     </div>
+  </div>
+  <div class="about">
+      <section class="wow bounceInUp" data-wow-duration="2s"><h1 class="about_us_big">ABOUT US</h1></section>
+      <div id="about_info">
+     <div class="leftblock wow bounceInLeft" data-wow-duration="2s"></div>
+      <div class="rightblock">
+          <section class="wow bounceInRight" data-wow-duration="2s"><h1 class="about_us">WHO WE ARE</h1></section>
+          <section class="wow bounceInRight" data-wow-duration="2s" data-wow-delay="0.3s"><p class = "about_text">Photography has become an integral part of our lives. Agree, it is difficult sometimes to keep everything in memory only. Time is so fleeting. But it's nice to sit in the evening with loved ones, open the album and relive all of your important moments.</p></section>
+      </div>
+           <div class="leftblock-inverse">
+           <section class="wow bounceInLeft" data-wow-duration="2s"><h1 class="about_us">WHAT WE DO</h1></section>
+          <section class="wow bounceInLeft" data-wow-duration="2s" data-wow-delay="0.3s"><p class = "about_text">"That's my birthday! Here are the first steps of our baby. Here, mother's priceless tears at my wedding." There are so many important events!
+I cooperate with my best friends and they are resl professionals. We will help you to keep all of them. We will find for you the correct angle.</p></section>
+     </div>
+      <div class="rightblock-inverse wow bounceInRight" data-wow-duration="2s"></div>
+  </div>
+  </div>
+<div class="gallery">
+ <h1 class="gallery-title">GALLERY</h1>
+  <div class="photos">
+   <div class="img-horizontal mosaicflow__item">
+       <a href="img/gallery/1.jpg" data-lightbox="image-1" data-title="Paris, France">
+           <img src="img/gallery/1.jpg" alt="paris" width="100%">
+           	<p>Paris, France</p>
+           </a>
+   </div>
+    <div class="img-horizontal mosaicflow__item">
+       <a href="img/gallery/2.jpg" data-lightbox="image-1" data-title="Architecture Palace">
+           <img src="img/gallery/2.jpg" alt="paris" width="100%">
+           <p>Architecture Palace</p>
+           </a>
+   </div>
+       <div class="img-horizontal mosaicflow__item">
+       <a href="img/gallery/3.jpg" data-lightbox="image-1" data-title="Venice, Italy">
+           <img src="img/gallery/3.jpg" alt="paris" width="100%">
+           <p>Venice, Italy</p></a>
+   </div>
+       <div class="img-horizontal mosaicflow__item">
+       <a href="img/gallery/4.jpg" data-lightbox="image-1" data-title="State Building">
+           <img src="img/gallery/4.jpg" alt="paris" width="100%">
+           <p>State Building</p></a>
+   </div>
+ <div class="img-horizontal mosaicflow__item">
+       <a href="img/gallery/5.jpg" data-lightbox="image-1" data-title="Oxford University">
+           <img src="img/gallery/5.jpg" alt="paris" width="100%">
+            <p>Oxford University</p>
+           </a>
+   </div>
+    <div class="img-horizontal mosaicflow__item">
+       <a href="img/gallery/6.jpg" data-lightbox="image-1" data-title="Barcelona, Italy">
+           <img src="img/gallery/6.jpg" alt="paris" width="100%">
+           <p>Barcelona, Italy</p>
+           </a>
+   </div>
+       <div class="img-horizontal mosaicflow__item">
+       <a href="img/gallery/7.jpg" data-lightbox="image-1" data-title="New York, America">
+           <img src="img/gallery/7.jpg" alt="paris" width="100%">
+            <p>New York, America</p>
+            </a>
+   </div>
+          <div class="img-horizontal mosaicflow__item">
+       <a href="img/gallery/8.jpg" data-lightbox="image-1" data-title="Moscow, Russia">
+           <img src="img/gallery/8.jpg" alt="paris" width="100%">
+           <p>Moscow, Russia</p>
+           </a>
+   </div>
+         <div class="img-horizontal mosaicflow__item">
+       <a href="img/gallery/9.jpg" data-lightbox="image-1" data-title="Nottingham, Great Britain">
+           <img src="img/gallery/9.jpg" alt="paris" width="100%">
+           <p>Nottingham, Great Britain</p>
+           </a>
+   </div>
+       <div class="img-horizontal mosaicflow__item">
+       <a href="img/gallery/10.jpg" data-lightbox="image-1" data-title="Edinburgh, Scotland">
+           <img src="img/gallery/10.jpg" alt="paris" width="100%">
+           <p>Edinburgh, Scotland</p>
+           </a>
+   </div>
+          <div class="img-horizontal mosaicflow__item">
+       <a href="img/gallery/11.jpg" data-lightbox="image-1" data-title="Southampton–Portsmouth">
+           <img src="img/gallery/11.jpg" alt="paris" width="100%">
+           <p>Southampton–Portsmouth</p>
+           </a>
+   </div>
+         <div class="img-horizontal mosaicflow__item">
+       <a href="img/gallery/12.jpg" data-lightbox="image-1" data-title="Leeds–Bradford, Great Britain">
+           <img src="img/gallery/12.jpg" alt="paris" width="100%">
+           <p>Leeds–Bradford, Great Britain</p>
+           </a>
+   </div>
+      </div>
+  </div>
+  <div class="footer">
+   <div class="puncts">
+    <div class="footerinfo">
+      <h1 class="logofoot centered">PHOTOSTUDIO</h1>
+      <p class = "centered">PHOTOSTUDIO <span class = "lightgrey">© 2016 Privacy Policy</span></p>
+    </div>
+    <div class="footerpunctions linkedlist">
+        <ul>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Our team</a></li>
+            <li><a href="#">History</a></li>
+            <li><a href="#">Site map</a></li>
+        </ul>
+    </div>
+    <div class="footerpunctions-2 linkedlist">
+        <ul>
+            <li><a href="#">Social life</a></li>
+            <li><a href="#">Leisure</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">Tags</a></li>
+            <li><a href="#">Services</a></li>
+        </ul>
+    </div>
+     <div class="footercontact">
+         <ul class="darkicons-list">
+         <li class="contact-us">Contact us</li>
+         <li><i class="fa fa-phone" aria-hidden="true" ></i>+1(001) 023 021 22</li>
+         <li><i class="fa fa-map-marker" aria-hidden="true"></i>Australia, Wallace Rockhole</li>
+         <li><i class="fa fa-envelope" aria-hidden="true"></i>photostudio@mail.com</li>
+         <li><i class="fa fa-instagram" aria-hidden="true"></i>photostudio</li>
+     </ul>
+    </div>
+  </div>
+  <div class="footericons">
+          <i class="fa fa-pinterest-p fa-2x"></i>
+          <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+          <i class="fa fa-instagram fa-2x" aria-hidden="true"></i>
+  </div>
+</div>
+<div id="map"></div>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBTKjMq8pq1rPqApB1I_24bgA1qps_cLmU&callback=initMap" async defer></script>
+<script src="dist/wow.js"></script>
+<script>
+    wow = new WOW(
+      {
+        animateClass: 'animated',
+        offset: 100,
+        callback: function(box) {
+        console.log("WOW: animating <" + box.tagName.toLowerCase() + ">")
+        }
+      }
+    );
+    wow.init();
+</script>
+<script src="js/lightbox-plus-jquery.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+<script src="js/jquery.mosaicflow.min.js"></script>
+</body>
+</html>
