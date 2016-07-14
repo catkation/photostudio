@@ -1,0 +1,48 @@
+* { vertical-align:top; }
+.wow:first-child {
+    visibility: hidden;
+    }
+body{
+    overflow-x: hidden;
+     }
+
+.footerinfo, .linkedlist, .footercontact, .leftblock-inverse, .rightblock-inverse, .leftblock, .rightblock{
+    min-width: 200px;
+}
+.ourteam-title{
+    text-align: center;
+    font-weight: 900;
+    color: #414141;
+    padding-bottom: 30px;
+}
+.ourteam{
+    margin-top: 50px;
+}
+.ourteam img{
+    margin: 0 5px;
+}
+.ourteam-names li{
+    display: inline;
+    padding: 20px 85px;
+    font-size: 20px;
+    font-weight: 800;
+    color: #1f1f1f;
+}
+.ourteam-about li{
+    display: inline;
+    padding: 0 45px;
+}
+.ourteam img:hover{
+-webkit-transform: scale(1.1);
+-moz-transform: scale(1.1);
+-o-transform: scale(1.1);
+-moz-transition: all 0.7s ease-out;
+-o-transition: all 0.7s ease-out;
+-webkit-transition: all 0.7s ease-out;
+overflow: hidden;
+}
+.about-img{
+    overflow: hidden;
+    height: 200px;
+    width: 300px;
+}
